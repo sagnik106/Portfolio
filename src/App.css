@@ -1,38 +1,209 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#name{
+  font-family: 'Dancing Script', cursive;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 50vh;
+  font-size: 10vw;
+  font-weight: 10;
+  margin: 10vh 0 0 0;
+}
+
+.floater{
+  float: left;
+}
+
+#arrowcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin: 20vh 0 0 0;
+  transition: opacity 2s;
+}
+
+#arrow{
+  transform: rotate(180deg);
+  background-color: #ffffff00;
+  padding: 5px 9px 9px 9px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+#arrow:hover{
+  background-color: #ffffff31;
+}
+#social {
+  height: 55px;
+  margin-bottom: 1vh;
+}
+
+#github {
+  border-radius: 50%;
+  padding: 10px 10px 5px 10px;
+  background-color: #5c6bc0;
+}
+
+#linkedin {
+  border-radius: 50%;
+  padding: 10px 10px 5px 10px;
+  background-color: #007ab9;
+}
+
+#twitter {
+  border-radius: 50%;
+  padding: 10px 10px 5px 10px;
+  background-color: #03a9f4;
+}
+
+.space {
+  padding: 0.5vw;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  border-radius: 5%;
   color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: color 0.25s;
+  margin-left: 5vw;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  background-color: RoyalBlue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#acont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 9vh;
+}
+
+#About {
+  height: 60vh;
+}
+
+#atitle{
+  text-align: center;
+  padding-top: 10vh;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5vw;
+}
+
+#mpic{
+  border-radius: 5%;
+  width: 250px;
+}
+
+#aname{
+  margin-left: 5vw;
+  width: 40vw;
+  color: #a2e2ff;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#contact{
+  margin-left: 5vw;
+  margin-bottom: 1vh;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#social {
+  margin-left: 5vw;
+}
+
+#bio{
+  margin-left: 5vw;
+  width: 40vw;
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+}
+
+#myBtn { /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 0; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Set a background color */
+  color: rgb(255, 255, 255); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px;
+  opacity: 50%; 
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;/* Increase font size */
+}
+
+#myBtn:hover {
+  opacity: 90%; /* Add a dark-grey background on hover */
+}
+
+@media only screen and (max-width: 800px){
+  #About{
+    height: 65vh;
   }
-  to {
-    transform: rotate(360deg);
+  #name{
+    font-size: 15vw;
   }
+
+  #mpic{
+    border-radius: 50%;
+    width: 35vw;
+  }
+
+  .btn{
+    margin: 0;
+  }
+  
+  .floater{
+    float: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #atitle{
+    padding-top: 3vh;
+    font-size: 10vw;
+  }
+
+  #acont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  #bio{
+    width: 90vw;
+    margin: 0;
+    text-align: justify;
+  }
+
+  #aname{
+    font-size: 6vw;
+    width: 90vw;
+  }
+
+  #arrowcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin: 10vh 0 0 0;
+    transition: opacity 2s;
+  }
+
 }
