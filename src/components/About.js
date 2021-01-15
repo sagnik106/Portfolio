@@ -11,8 +11,9 @@ class About extends React.Component{
                     </div>
                     <div class="floater">
                         <h1 id="aname">Sagnik Sarkar</h1>
-                        <p id="bio">Hi there, I am an undergraduate student at Vellore Institute of Technology, Vellore, India majoring in Computer Science and Engineering. I also am a Full stack developer (Learnt it so that i can deploy the models...shh!).</p>
-                        <table id='contact'>
+                        <p class="bio">Hi there, I am an undergraduate student at Vellore Institute of Technology, Vellore, India majoring in Computer Science and Engineering. I am interested in anything dealing with computers or any aspect of it. Artificial Intelligence, Machine Learning, Computer Vision and Deep Learning are my major field of focus both for deployment and research. I also am a Full stack developer (Learnt it so that i can deploy the models...shh!).</p>
+                        <p class="bio"> Hit me up if you want to discuss some ideas in the fields I mentioned above. I am all ears to bounce off ideas or work on them. </p>
+                        {/* <table id='contact'>
                             <tr>
                                 <td>Phone</td>
                                 <td>:</td>
@@ -32,8 +33,7 @@ class About extends React.Component{
                                 <td class="space"></td>
                                 <a href="https://twitter.com/lesagniksarkar" target="_blank" rel="noreferrer"><td id="twitter"><img width="30px" height="30px" alt="twitter" src="twitter.png"></img></td></a>
                             </tr>
-                        </table>
-                        <a href="Resume.pdf" download="Sagnik_Sarkar_Resume.pdf"><button class="btn">Resume</button></a>
+                        </table> */}
                     </div>
                 </div>
             </div>

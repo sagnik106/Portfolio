@@ -13,6 +13,10 @@
   float: left;
 }
 
+#Skills{
+  height: 60vh;
+}
+
 #arrowcontainer{
   display: flex;
   justify-content: center;
@@ -69,7 +73,6 @@
   cursor: pointer;
   font-size: 20px;
   transition: color 0.25s;
-  margin-left: 5vw;
 }
 
 .btn:hover {
@@ -94,6 +97,81 @@
   font-size: 5vw;
 }
 
+.floater1{
+  float: left;
+  width: 33vw;
+}
+
+#Education{
+  height: 60vh;
+}
+
+#Experience{
+  height: 60vh;
+}
+
+#btncenter{
+  width: 100%;
+  text-align: center;
+}
+
+#Contact{
+  height: 100vh;
+}
+
+.conhead{
+  text-align: center;
+  padding-top: 10vh;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5vw;
+  margin-bottom: 10vh;
+}
+
+.cdivs{
+  float: left;
+  width: 50vw;
+  height: 10vh;
+  color: #a2e2ff;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2vw;
+}
+
+.td1{
+  padding: 3vh 10px;
+}
+
+.ehead{
+  text-align: center;
+  padding-top: 10vh;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5vw;
+  padding-bottom: 3vh;
+}
+
+.ecard{
+  width: 60vw;
+  margin: 5vh auto;
+}
+
+.subhead{
+  color: #a2e2ff;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.sdesc{
+  margin: 3vh 3vw;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+.shead{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5vw;
+  margin-top: 18vh;
+}
+
 #mpic{
   border-radius: 5%;
   width: 250px;
@@ -116,7 +194,7 @@
   margin-left: 5vw;
 }
 
-#bio{
+.bio{
   margin-left: 5vw;
   width: 40vw;
   font-family: 'Libre Baskerville', serif;
@@ -148,6 +226,9 @@
 }
 
 @media only screen and (max-width: 800px){
+  #Skills{
+    height: 65vh;
+  }
   #About{
     height: 65vh;
   }
@@ -161,6 +242,7 @@
   }
 
   .btn{
+
     margin: 0;
   }
   
@@ -178,6 +260,11 @@
     font-size: 10vw;
   }
 
+  #stitle{
+    padding-top: 3vh;
+    font-size:10vw;
+  }
+
   #acont{
     display: flex;
     justify-content: center;
@@ -186,7 +273,7 @@
     padding-top: 0;
   }
 
-  #bio{
+  .bio{
     width: 90vw;
     margin: 0;
     text-align: justify;
