@@ -11,15 +11,15 @@ function App() {
   return (
     <div>
       <Name/>
-      <Scrollarrow link="Portfolio/#About"/>
+      <Scrollarrow link="/#About"/>
       <About/>
-      <Scrollarrow link="Portfolio/#Skills"/>
+      <Scrollarrow link="/#Skills"/>
       <Skills/>
-      <Scrollarrow link="Portfolio/#Education"/>
+      <Scrollarrow link="/#Education"/>
       <Education/>
-      <Scrollarrow link="Portfolio/#Experience"/>
+      <Scrollarrow link="/#Experience"/>
       <Experience/>
-      <Scrollarrow link="Portfolio/#Contact"/>
+      <Scrollarrow link="/#Contact"/>
       <Contact/>
     </div>
   );
