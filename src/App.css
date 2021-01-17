@@ -229,7 +229,7 @@
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Set a background color */
-  color: rgb(255, 255, 255); /* Text color */
+  color: #FFFFFF; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
@@ -243,7 +243,7 @@
 }
 
 #myBtn:hover {
-  opacity: 90%; /* Add a dark-grey background on hover */
+  opacity: 100%; /* Add a dark-grey background on hover */
 }
 
 @media only screen and (max-width: 800px){
