@@ -134,13 +134,16 @@
   padding: 0 1vw;
   color: #a2e2ff;
   font-family: 'Libre Baskerville', serif;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .ctable{
   margin: 10vh 0;
   width: 100%;
   text-align: center;
+}
+.ctable1{
+  width: 100%;
 }
 
 .hoverer{

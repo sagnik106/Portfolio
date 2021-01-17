@@ -6,7 +6,7 @@ class Contact extends React.Component{
             <div id="Contact">
                 <h1 class="conhead">Contact Me !</h1>
                 <div class='cdivs'>
-                    <table>
+                    <table class="ctable1">
                         <tr>
                             <td style={{textAlign: 'center'}}><a href="https://github.com/sagnik106" target="_blank" rel="noreferrer"><img class='hoverer' alt="github" src="github.png"></img></a></td>
                             <td style={{textAlign: 'center'}} colspan='2'>Destination for cool projects</td>
