@@ -234,7 +234,7 @@
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px;
-  opacity: 50%; 
+  opacity: 0.5; 
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -243,7 +243,7 @@
 }
 
 #myBtn:hover {
-  opacity: 100%; /* Add a dark-grey background on hover */
+  opacity: 1; /* Add a dark-grey background on hover */
 }
 
 @media only screen and (max-width: 800px){
