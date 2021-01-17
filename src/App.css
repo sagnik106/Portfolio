@@ -42,7 +42,7 @@
   margin-bottom: 1vh;
 }
 
-#github {
+/* #github {
   border-radius: 50%;
   padding: 10px 10px 5px 10px;
   background-color: #5c6bc0;
@@ -58,7 +58,7 @@
   border-radius: 50%;
   padding: 10px 10px 5px 10px;
   background-color: #03a9f4;
-}
+} */
 
 .space {
   padding: 0.5vw;
@@ -129,11 +129,29 @@
 
 .cdivs{
   float: left;
-  width: 50vw;
+  width: 48vw;
   height: 10vh;
+  padding: 0 1vw;
   color: #a2e2ff;
   font-family: 'Libre Baskerville', serif;
   font-size: 2vw;
+}
+
+.ctable{
+  margin: 10vh 0;
+  width: 100%;
+  text-align: center;
+}
+
+.hoverer{
+  box-shadow: 0 0 20px #FFFFFF00;
+  border-radius: 50%;
+  width: 6vw;
+  transition: box-shadow 0.1s;
+}
+
+.hoverer:hover{
+  box-shadow: 0 0 20px #FFFFFFFF;
 }
 
 .td1{
@@ -226,6 +244,42 @@
 }
 
 @media only screen and (max-width: 800px){
+  .cdivs{
+    width: 100vw;
+    font-size: 4vw;
+    height: fit-content;
+  }
+  .ctable{
+    margin: 5vh auto;
+  }
+  .cdivs table{
+    width: 100%;
+  }
+  .hoverer{
+    width: 20vw;
+  }
+  .ehead{
+    font-size: 7vw;
+  }
+  .conhead{
+    font-size: 7vw;
+  }
+  .subhead{
+    font-size: 5vw;
+  }
+  .subdesc{
+    font-size: 3vw;
+  }
+  .shead{
+    font-size: 7vw;
+    margin-top: 3vh;
+  }
+  .sdesc{
+    font-size: 3.5vw;
+  }
+  .floater1{
+    width: 100vw;
+  }
   #Skills{
     height: 65vh;
   }
