@@ -40,7 +40,7 @@ class Topper extends React.Component{
         const {is_visible} = this.state;
         return (
             <div className="scroll-to-top">
-                {is_visible && (<a href="/#start" title="Go to top" id="myBtn">
+                {is_visible && (<a href="/Portfolio/#start" title="Go to top" id="myBtn">
                     <img src="up-arrow.png" width="30px" alt="up-arrow"></img>
                     Go to the top
                 </a>)}
