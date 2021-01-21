@@ -8,19 +8,21 @@ import Contact from './components/Contact.js'
 import './App.css';
 
 function App() {
+  var base = "/Portfolio/";
   return (
     <div>
       <Name/>
-      <Scrollarrow link="/Portfolio/#About"/>
+      <Scrollarrow link={base+"#About"} link1={base+"#start"} up={false} down={true}/>
       <About/>
-      <Scrollarrow link="/Portfolio/#Skills"/>
+      <Scrollarrow link={base+"#Skills"} link1={base+"#start"} up={true} down={true}/>
       <Skills/>
-      <Scrollarrow link="/Portfolio/#Education"/>
+      <Scrollarrow link={base+"#Education"} link1={base+"#About"} up={true} down={true}/>
       <Education/>
-      <Scrollarrow link="/Portfolio/#Experience"/>
+      <Scrollarrow link={base+"#Experience"} link1={base+"#Skills"} up={true} down={true}/>
       <Experience/>
-      <Scrollarrow link="/Portfolio/#Contact"/>
+      <Scrollarrow link={base+"#Contact"} link1={base+"#Education"} up={true} down={true}/>
       <Contact/>
+      <Scrollarrow link={base+"#Contact"} link1={base+"#Experience"} up={true} down={false}/>
     </div>
   );
 }

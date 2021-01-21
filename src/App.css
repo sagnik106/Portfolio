@@ -14,6 +14,7 @@
 }
 
 #Skills{
+  padding: 2vh 0 0 0;
   height: 60vh;
 }
 
@@ -26,15 +27,18 @@
   transition: opacity 2s;
 }
 
-#arrow{
+.rotator{
   transform: rotate(180deg);
+}
+
+.arrow{
   background-color: #ffffff00;
   padding: 5px 9px 9px 9px;
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.25s;
 }
-#arrow:hover{
+.arrow:hover{
   background-color: #ffffff31;
 }
 #social {
@@ -116,7 +120,7 @@
 }
 
 #Contact{
-  height: 100vh;
+  height: 60vh;
 }
 
 .conhead{
@@ -158,7 +162,7 @@
 }
 
 .td1{
-  padding: 3vh 10px;
+  padding: 2vh 10px;
 }
 
 .ehead{
@@ -171,7 +175,7 @@
 
 .ecard{
   width: 60vw;
-  margin: 5vh auto;
+  margin: 3vh auto;
 }
 
 .subhead{
@@ -206,6 +210,7 @@
 }
 
 #contact{
+  height: 65vh;
   margin-left: 5vw;
   margin-bottom: 1vh;
   font-family: 'Libre Baskerville', serif;
@@ -249,7 +254,7 @@
 @media only screen and (max-width: 800px){
   .cdivs{
     width: 100vw;
-    font-size: 4vw;
+    font-size: 17px;
     height: fit-content;
   }
   .ctable{
@@ -259,26 +264,31 @@
     width: 100%;
   }
   .hoverer{
-    width: 20vw;
+    width: 60px;
+  }
+  .td1{
+    padding: 1vh 10px;
   }
   .ehead{
     font-size: 7vw;
   }
   .conhead{
-    font-size: 7vw;
+    padding-top: 0;
+    margin-top: 10vh;
+    font-size: 10vw;
   }
   .subhead{
-    font-size: 5vw;
+    font-size: 20px;
   }
   .subdesc{
-    font-size: 3vw;
+    font-size: 2.7vw;
   }
   .shead{
     font-size: 7vw;
     margin-top: 3vh;
   }
   .sdesc{
-    font-size: 3.5vw;
+    font-size: 15px;
   }
   .floater1{
     width: 100vw;
