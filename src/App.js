@@ -8,7 +8,7 @@ import Contact from './components/Contact.js'
 import './App.css';
 
 function App() {
-  var base = "/Portfolio/";
+  var base = "/";
   return (
     <div>
       <Name/>
