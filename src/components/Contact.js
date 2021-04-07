@@ -28,11 +28,11 @@ class Contact extends React.Component{
                             <td class='td1'>:</td>
                             <td class='td1'>sagnik106@gmail.com</td>
                         </tr>
-                        <tr>
+                        {/* <tr>
                             <td class='td1'>Phone No.</td>
                             <td class='td1'>:</td>
                             <td class='td1'>+91 789 354 0575</td>
-                        </tr>
+                        </tr> */}
                     </table>
                 </div>
             </div>
